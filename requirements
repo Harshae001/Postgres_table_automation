@@ -1,0 +1,5 @@
+fastapi
+pymongo
+sqlalchemy
+psycopg2-binary
+uvicorn

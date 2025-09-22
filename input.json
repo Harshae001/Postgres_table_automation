@@ -1,0 +1,115 @@
+{
+  "type": "save",
+  "project_id": "project_104",
+  "stage_id": "V8SfVa6vGt8g3v7wgerzAX",
+  "current_status": "New Entry",
+  "table_name": "blow_mold_inspection_report_3",
+  "task_id": "task_42459",
+  "triggers": {},
+  "submitted_data": {
+    "data": {
+      "date": "2025-09-09",
+      "tpd": "40 TPD",
+      "shift": "Shift A",
+      "mc_no": "B1",
+      "job_name": "10 ML EROS - DB832",
+      "auto_fill": true,
+      "body_dimension": [
+        {
+          "engr": "II PG no.",
+          "cavity_ht": "Ok",
+          "neck_bore": "Not Ok",
+          "play": "Not Ok",
+          "gap": "Not Ok",
+          "joint": "Not Ok",
+          "btm_match": "Not Ok",
+          "vertical_polish": "Not Ok",
+          "remarks": "test",
+          "accept_reject": "Reject",
+          "mold_no": 12,
+          "bottom_no": 2,
+          "top_value": 24,
+          "middle_value": 2,
+          "bottom_value": 4
+        },
+        {
+          "engr": "I PG no.",
+          "cavity_ht": "Ok",
+          "neck_bore": "Not Ok",
+          "play": "Ok",
+          "gap": "Not Ok",
+          "joint": "Ok",
+          "btm_match": "Not Ok",
+          "vertical_polish": "Not Ok",
+          "accept_reject": "Accept",
+          "remarks": "test2",
+          "mold_no": 12,
+          "bottom_no": 3,
+          "top_value": 3,
+          "middle_value": 3,
+          "bottom_value": 3
+        }
+      ],
+      "addRow": false,
+      "addRow1": false,
+      "spare": [
+        {
+          "spare_mold_no": 1
+        },
+        {
+          "spare_mold_no": 2
+        }
+      ],
+      "rejected": [
+        {
+          "rejected_mold_no": 3,
+          "rejected_mold_no_1": 3
+        },
+        {
+          "rejected_mold_no": 4,
+          "rejected_mold_no_1": 5
+        }
+      ],
+      "shift_engineer": {
+        "signature_id": "HQWTOXCXYYVMOCSC4ABVST",
+        "name": "Harsha E",
+        "date": "09/09/2025 3:47 PM",
+        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
+        "signature_fields": {
+          "esign": ""
+        },
+        "reason": ""
+      },
+      "step_name": "40 TPD Blow Mold Inspection Report Shift A",
+      "sample_size": 2,
+      "top_min": 23,
+      "middle_min": 3,
+      "bottom_min": 23,
+      "top_max": 23,
+      "middle_max": 23,
+      "bottom_max": 23,
+      "mold_inspector": {
+        "signature_id": "FQBYBTSALDCHSWQH3SFVKF",
+        "name": "Harsha E",
+        "date": "09/09/2025 3:46 PM",
+        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
+        "signature_fields": {
+          "esign": ""
+        },
+        "reason": ""
+      }
+    }
+  },
+  "stages": [
+    "V8SfVa6vGt8g3v7wgerzAX",
+    "emRwa7JT3akGVQ2jz2yWwE",
+    "kuhNbeyP8GvQAQwrsyDNZD"
+  ],
+  "offline": {
+    "timestamp": 1757413152755
+  },
+  "project_type": "n_level_hierarchy",
+  "tz": "Asia/Kolkata",
+  "language": "en",
+  "user_id": "QBrsRy4qQTd74MTZygDY8w"
+}
