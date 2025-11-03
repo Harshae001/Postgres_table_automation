@@ -1,112 +1,95 @@
 {
   "type": "save",
   "project_id": "project_104",
-  "stage_id": "V8SfVa6vGt8g3v7wgerzAX",
+  "stage_id": "hGiobFXVtiYGCvEnHKEiri",
   "current_status": "New Entry",
-  "table_name": "blow_mold_inspection_report_3",
-  "task_id": "task_42459",
+  "task_id": "task_43467",
   "triggers": {},
+  "table_name": "final_table",
   "submitted_data": {
     "data": {
-      "date": "2025-09-09",
-      "tpd": "40 TPD",
-      "shift": "Shift A",
-      "mc_no": "B1",
-      "job_name": "10 ML EROS - DB832",
-      "auto_fill": true,
-      "body_dimension": [
+      "generate_row": false,
+      "dg1": [
         {
-          "engr": "II PG no.",
-          "cavity_ht": "Ok",
-          "neck_bore": "Not Ok",
-          "play": "Not Ok",
-          "gap": "Not Ok",
-          "joint": "Not Ok",
-          "btm_match": "Not Ok",
-          "vertical_polish": "Not Ok",
-          "remarks": "test",
-          "accept_reject": "Reject",
-          "mold_no": 12,
-          "bottom_no": 2,
-          "top_value": 24,
-          "middle_value": 2,
-          "bottom_value": 4
-        },
-        {
-          "engr": "I PG no.",
-          "cavity_ht": "Ok",
-          "neck_bore": "Not Ok",
-          "play": "Ok",
-          "gap": "Not Ok",
-          "joint": "Ok",
-          "btm_match": "Not Ok",
-          "vertical_polish": "Not Ok",
-          "accept_reject": "Accept",
-          "remarks": "test2",
-          "mold_no": 12,
-          "bottom_no": 3,
-          "top_value": 3,
-          "middle_value": 3,
-          "bottom_value": 3
+          "dolomite_first_grade_type_moisture": "Moisture Balance",
+          "dolomite_first_grade_equipment_moisture": "Moisture Analyzer CLJ-B511694765",
+          "dolomite_first_grade_type_sample_weight": "Weighing Balance",
+          "dolomite_first_grade_equipment_sample_weight": "Balance 210 GM CLJ - 04001",
+          "dolomite_first_grade_equipment_8_bss": "Electromagnetic Sieve shaker Machine CLJ - EMS-0707072",
+          "dolomite_first_grade_type_fe2o3": "WDXRF",
+          "dolomite_first_grade_equipment_fe2o3": "WDXRF ZETIUM CLJ-DY3528",
+          "testing_status": "In Progress",
+          "grn_no": "",
+          "supplier_name": "",
+          "truck_no": "",
+          "invoice_no": "",
+          "dolomite_first_grade_analysed_time_moisture": "13:20:00",
+          "dolomite_first_grade_analysed_time_sample_weight": "13:20:00",
+          "dolomite_first_grade_parameters_seiving_period": "5 Mins",
+          "dolomite_first_grade_parameters_physical_test": "Fail",
+          "dolomite_first_grade_analysed_time_fe2o3": "13:20:00",
+          "dolomite_first_grade_parameters_chemical_test": "Fail",
+          "dolomite_first_grade_parameters_overall_status": "Fail",
+          "dolomite_first_grade_remark": "test",
+          "result_status": "Fail",
+          "approved_by": "",
+          "dolomite_first_grade_parameters_moisture": 1.12,
+          "dolomite_first_grade_parameters_sample_weight": 2.23,
+          "dolomite_first_grade_parameters_8_bss": 23.23,
+          "dolomite_first_grade_parameters_85_bss": 43.34,
+          "dolomite_first_grade_parameters_fe2o3": 44.453,
+          "dolomite_first_grade_parameters_cao": 434.34,
+          "dolomite_first_grade_parameters_mgo": 17
         }
       ],
-      "addRow": false,
-      "addRow1": false,
-      "spare": [
-        {
-          "spare_mold_no": 1
-        },
-        {
-          "spare_mold_no": 2
-        }
-      ],
-      "rejected": [
-        {
-          "rejected_mold_no": 3,
-          "rejected_mold_no_1": 3
-        },
-        {
-          "rejected_mold_no": 4,
-          "rejected_mold_no_1": 5
-        }
-      ],
-      "shift_engineer": {
-        "signature_id": "HQWTOXCXYYVMOCSC4ABVST",
-        "name": "Harsha E",
-        "date": "09/09/2025 3:47 PM",
-        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
-        "signature_fields": {
-          "esign": ""
-        },
-        "reason": ""
-      },
-      "step_name": "40 TPD Blow Mold Inspection Report Shift A",
-      "sample_size": 2,
-      "top_min": 23,
-      "middle_min": 3,
-      "bottom_min": 23,
-      "top_max": 23,
-      "middle_max": 23,
-      "bottom_max": 23,
-      "mold_inspector": {
-        "signature_id": "FQBYBTSALDCHSWQH3SFVKF",
-        "name": "Harsha E",
-        "date": "09/09/2025 3:46 PM",
-        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
-        "signature_fields": {
-          "esign": ""
-        },
-        "reason": ""
-      }
+      "dolomite_first_grade_data": "",
+      "dolomite_first_grade_status_data": "",
+      "step_name": "Dolomite First Grade",
+      "date": "2025-10-27"
     }
   },
   "stages": [
-    "V8SfVa6vGt8g3v7wgerzAX",
-    "emRwa7JT3akGVQ2jz2yWwE",
-    "kuhNbeyP8GvQAQwrsyDNZD"
+    "kqT2jsvDMFmNAFjypQMUMy",
+    "ZC672NXVKrpBFD3JiA6sNP",
+    "CJSf42fpG5QZDA2ivjKpae",
+    "P8E4wATDAAYjwjTuinRDey",
+    "fUaRjDDsauyST5Sas7ga2B",
+    "5LyQPK9QSm4D7s7C5viL8K",
+    "PS8mweLapWGWxBJpD9J96a",
+    "jt8Zv9BLu6H95Bfup8H3SH",
+    "YoM794aVaYsn3SbHSdVfx4",
+    "VHrGfdqqsk4GwjP6PDbKij",
+    "jhDGDqnyJGwijwcFW4dMca",
+    "HFdze9N5g4hHk9P9YhzVE6",
+    "7DUGxaie3mkCZvXDsHx5HY",
+    "SLPoGJG9yNB67hWdQFkVwE",
+    "hGiobFXVtiYGCvEnHKEiri",
+    "iAXqEtcGzC2YQSAWMU9gH5",
+    "Q8CDZQEysKR2UDhrDpXaGG",
+    "muCLwFBEDx3UGqBjYukc9S",
+    "2B8nkoYPNcckEU7GPZP9vH",
+    "UCsi5jZfuT4ut8HP8xG3RP",
+    "HSYKRDDLWYLiafyvszJQT6",
+    "moDFKQzNtBEk6RBuzmugN3",
+    "g6WoTP2HYuYhWaV3krQwfP",
+    "jNpxxUTKHfJJXRtmJa5cBC",
+    "LKYg4B6Cp45mZwJ2uiAgez",
+    "h67gMB5dP8C3oGiHHk2MLe",
+    "hAnKutbKeNZLSciQcTPpkg",
+    "Fbcgi3PqUjPn4ygGWJXKLs",
+    "M3F33Wg3o5ThiQw4AaJ5Jm",
+    "hr6aKxDYiaFQXyfXty8trR",
+    "BmbFfUZvtKg3kE6u72y6Lp",
+    "Wkj2C9fT7MS5TNZR4W5NJD",
+    "9KP3XerYmtsVm9kfKAqqKD",
+    "cLLsUCfRE95NekQHZpKqgu",
+    "4pBHV7pYnKnvuKNSyLEBED",
+    "fNSWxVNeuhVR92sMPsDi4G",
+    "AW4trCuUuFhfEE7hG9bBYh",
+    "aRLKiMWgJUxhuHXjQsNVtx"
   ],
   "offline": {
-    "timestamp": 1757413152755
+    "timestamp": 1761551569195
   },
   "project_type": "n_level_hierarchy",
   "tz": "Asia/Kolkata",
