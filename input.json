@@ -5,7 +5,17 @@
   "current_status": "New Entry",
   "task_id": "task_43467",
   "triggers": {},
-  "table_name": "final_table",
+  "table_name": "table101",
+     "analysed_by": {
+        "signature_id": "9ZAMPYR3LYGEE4QF8PWXYK",
+        "name": "Harsha E",
+        "date": "03/11/2025 11:07 PM",
+        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
+        "signature_fields": {
+          "status": ""
+        },
+        "reason": ""
+      },
   "submitted_data": {
     "data": {
       "generate_row": false,
@@ -13,33 +23,28 @@
         {
           "dolomite_first_grade_type_moisture": "Moisture Balance",
           "dolomite_first_grade_equipment_moisture": "Moisture Analyzer CLJ-B511694765",
-          "dolomite_first_grade_type_sample_weight": "Weighing Balance",
-          "dolomite_first_grade_equipment_sample_weight": "Balance 210 GM CLJ - 04001",
-          "dolomite_first_grade_equipment_8_bss": "Electromagnetic Sieve shaker Machine CLJ - EMS-0707072",
-          "dolomite_first_grade_type_fe2o3": "WDXRF",
-          "dolomite_first_grade_equipment_fe2o3": "WDXRF ZETIUM CLJ-DY3528",
-          "testing_status": "In Progress",
-          "grn_no": "",
-          "supplier_name": "",
-          "truck_no": "",
           "invoice_no": "",
           "dolomite_first_grade_analysed_time_moisture": "13:20:00",
-          "dolomite_first_grade_analysed_time_sample_weight": "13:20:00",
-          "dolomite_first_grade_parameters_seiving_period": "5 Mins",
-          "dolomite_first_grade_parameters_physical_test": "Fail",
-          "dolomite_first_grade_analysed_time_fe2o3": "13:20:00",
-          "dolomite_first_grade_parameters_chemical_test": "Fail",
-          "dolomite_first_grade_parameters_overall_status": "Fail",
-          "dolomite_first_grade_remark": "test",
-          "result_status": "Fail",
-          "approved_by": "",
-          "dolomite_first_grade_parameters_moisture": 1.12,
-          "dolomite_first_grade_parameters_sample_weight": 2.23,
-          "dolomite_first_grade_parameters_8_bss": 23.23,
-          "dolomite_first_grade_parameters_85_bss": 43.34,
-          "dolomite_first_grade_parameters_fe2o3": 44.453,
           "dolomite_first_grade_parameters_cao": 434.34,
-          "dolomite_first_grade_parameters_mgo": 17
+          "dolomite_first_grade_parameters_mgo": 17,
+               "approved_by1": {
+        "signature_id": "9ZAMPYR3LYGEE4QF8PWXYd",
+        "name": "Harsha E",
+        "date": "03/11/2025 11:07 PM",
+        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
+        "signature_fields": {
+          "status": ""
+        },
+        "reason": ""
+      }
+        }
+      ],
+      "dg2": [
+        {
+          "col1": "string",
+          "col2": 12.123,
+          "col5": "nb",
+          "col4": "True"
         }
       ],
       "dolomite_first_grade_data": "",
@@ -50,41 +55,6 @@
   },
   "stages": [
     "kqT2jsvDMFmNAFjypQMUMy",
-    "ZC672NXVKrpBFD3JiA6sNP",
-    "CJSf42fpG5QZDA2ivjKpae",
-    "P8E4wATDAAYjwjTuinRDey",
-    "fUaRjDDsauyST5Sas7ga2B",
-    "5LyQPK9QSm4D7s7C5viL8K",
-    "PS8mweLapWGWxBJpD9J96a",
-    "jt8Zv9BLu6H95Bfup8H3SH",
-    "YoM794aVaYsn3SbHSdVfx4",
-    "VHrGfdqqsk4GwjP6PDbKij",
-    "jhDGDqnyJGwijwcFW4dMca",
-    "HFdze9N5g4hHk9P9YhzVE6",
-    "7DUGxaie3mkCZvXDsHx5HY",
-    "SLPoGJG9yNB67hWdQFkVwE",
-    "hGiobFXVtiYGCvEnHKEiri",
-    "iAXqEtcGzC2YQSAWMU9gH5",
-    "Q8CDZQEysKR2UDhrDpXaGG",
-    "muCLwFBEDx3UGqBjYukc9S",
-    "2B8nkoYPNcckEU7GPZP9vH",
-    "UCsi5jZfuT4ut8HP8xG3RP",
-    "HSYKRDDLWYLiafyvszJQT6",
-    "moDFKQzNtBEk6RBuzmugN3",
-    "g6WoTP2HYuYhWaV3krQwfP",
-    "jNpxxUTKHfJJXRtmJa5cBC",
-    "LKYg4B6Cp45mZwJ2uiAgez",
-    "h67gMB5dP8C3oGiHHk2MLe",
-    "hAnKutbKeNZLSciQcTPpkg",
-    "Fbcgi3PqUjPn4ygGWJXKLs",
-    "M3F33Wg3o5ThiQw4AaJ5Jm",
-    "hr6aKxDYiaFQXyfXty8trR",
-    "BmbFfUZvtKg3kE6u72y6Lp",
-    "Wkj2C9fT7MS5TNZR4W5NJD",
-    "9KP3XerYmtsVm9kfKAqqKD",
-    "cLLsUCfRE95NekQHZpKqgu",
-    "4pBHV7pYnKnvuKNSyLEBED",
-    "fNSWxVNeuhVR92sMPsDi4G",
     "AW4trCuUuFhfEE7hG9bBYh",
     "aRLKiMWgJUxhuHXjQsNVtx"
   ],
