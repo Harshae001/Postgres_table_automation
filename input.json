@@ -5,7 +5,9 @@
   "current_status": "New Entry",
   "task_id": "task_43467",
   "triggers": {},
-  "table_name": "table101",
+  "dolomite_first_grade_parameters_mgo1234": 3123.87,
+  "new_key": "out",
+  "table_name": "final_table",
      "analysed_by": {
         "signature_id": "9ZAMPYR3LYGEE4QF8PWXYK",
         "name": "Harsha E",
@@ -27,6 +29,8 @@
           "dolomite_first_grade_analysed_time_moisture": "13:20:00",
           "dolomite_first_grade_parameters_cao": 434.34,
           "dolomite_first_grade_parameters_mgo": 17,
+          "new_key_1": "out",
+
                "approved_by1": {
         "signature_id": "9ZAMPYR3LYGEE4QF8PWXYd",
         "name": "Harsha E",
