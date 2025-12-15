@@ -4,7 +4,7 @@
 A small Python codebase that reads a JSON file, derives table/column definitions, and creates or updates PostgreSQL tables accordingly. No CLI framework is required—run `main.py` directly.
 
 > **Author:** Harsha E  
-> **Status:** Finalized (uses `db_manager.py` only)
+> **Status:** Working CodeBase with all the required features for PGP Project
 
 ---
 
