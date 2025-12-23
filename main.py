@@ -1,6 +1,6 @@
 import json
 from schema_utils import build_columns, extract_lists, mandatory_columns, excluded_columns
-from db_manager import create_table
+from db_manager import create_table, generate_create_table_sql
 
 def main():
     with open('input.json', 'r', encoding='utf-8') as f:
@@ -35,17 +35,23 @@ def main():
 
             # Build columns
             columns = build_columns(combined_data)
+            sql = generate_create_table_sql(table_name, columns, mandatory_columns)
+            print(sql)
 
-            # Create table
-            create_table(table_name, columns, mandatory_columns)
-            print(f"Created/updated table: {table_name}")
+            # For Creating table in the database
+            # create_table(table_name, columns, mandatory_columns)
+            # print(f"Created/updated table: {table_name}")
 
     # Case 2: No datagrids — single table
     else:
         table_name = base_table_name
         columns = build_columns(common_data)
-        create_table(table_name, columns, mandatory_columns)
-        print(f"Created/updated single table: {table_name}")
+        sql = generate_create_table_sql(table_name, columns, mandatory_columns)
+        print(sql)
+
+        # For Creating table in the database
+        # create_table(table_name, columns, mandatory_columns)
+        # print(f"Created/updated single table: {table_name}")
 
 
 if __name__ == '__main__':

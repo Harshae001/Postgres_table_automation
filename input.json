@@ -8,16 +8,14 @@
   "dolomite_first_grade_parameters_mgo1234": 3123.87,
   "new_key": "out",
   "table_name": "final_table",
-     "analysed_by": {
-        "signature_id": "9ZAMPYR3LYGEE4QF8PWXYK",
-        "name": "Harsha E",
-        "date": "03/11/2025 11:07 PM",
-        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
-        "signature_fields": {
-          "status": ""
-        },
-        "reason": ""
-      },
+  "analysed_by": {
+    "signature_id": "9ZAMPYR3LYGEE4QF8PWXYK",
+    "name": "Harsha E",
+    "date": "03/11/2025 11:07 PM",
+    "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
+    "signature_fields": {"status": ""},
+    "reason": ""
+  },
   "submitted_data": {
     "data": {
       "generate_row": false,
@@ -30,26 +28,18 @@
           "dolomite_first_grade_parameters_cao": 434.34,
           "dolomite_first_grade_parameters_mgo": 17,
           "new_key_1": "out",
-
-               "approved_by1": {
-        "signature_id": "9ZAMPYR3LYGEE4QF8PWXYd",
-        "name": "Harsha E",
-        "date": "03/11/2025 11:07 PM",
-        "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
-        "signature_fields": {
-          "status": ""
-        },
-        "reason": ""
-      }
+          "approved_by1": {
+            "signature_id": "9ZAMPYR3LYGEE4QF8PWXYd",
+            "name": "Harsha E",
+            "date": "03/11/2025 11:07 PM",
+            "signed_user_id": "QBrsRy4qQTd74MTZygDY8w",
+            "signature_fields": {"status": ""},
+            "reason": ""
+          }
         }
       ],
       "dg2": [
-        {
-          "col1": "string",
-          "col2": 12.123,
-          "col5": "nb",
-          "col4": "True"
-        }
+        {"col1": "string", "col2": 12.123, "col5": "nb", "col4": "True"}
       ],
       "dolomite_first_grade_data": "",
       "dolomite_first_grade_status_data": "",
@@ -62,9 +52,7 @@
     "AW4trCuUuFhfEE7hG9bBYh",
     "aRLKiMWgJUxhuHXjQsNVtx"
   ],
-  "offline": {
-    "timestamp": 1761551569195
-  },
+  "offline": {"timestamp": 1761551569195},
   "project_type": "n_level_hierarchy",
   "tz": "Asia/Kolkata",
   "language": "en",

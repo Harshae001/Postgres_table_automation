@@ -10,6 +10,17 @@ def get_db_connection():
 def release_db_connection(conn):
     CONN_POOL.putconn(conn)
 
+
+def generate_create_table_sql(table_name: str, columns: list, mandatory_cols: list) -> str:
+    """
+    Build a CREATE TABLE SQL string from column definition lists.
+    `columns` and `mandatory_cols` are lists of column definition strings.
+    """
+    all_cols = list(mandatory_cols) + list(columns)
+    cols_sql = ",\n  ".join(all_cols)
+    sql = f'CREATE TABLE IF NOT EXISTS "{table_name}" (\n  {cols_sql}\n);'
+    return sql
+
 def create_table(table_name, columns, mandatory_columns):
     conn = get_db_connection()
     cur = conn.cursor()
